@@ -18,31 +18,11 @@ export default function Home() {
 
           <div className='grid sm:grid-cols-3 gap-6 max-w-[1040px] mx-auto'>
             <ProjectCard
-            title="Tech News"
-            description="Homepage de um portal de notícias sobre a área de tecnologia"
-            mediaType="video"
-            mediaSrc="/movie-finder.mp4"
-            borderColor="#3498DB"
-            technologies={["React", "Next.js", "TailwindCSS"]}
-            projectUrl="https://meuprojeto.com"
-            githubUrl="https://github.com/meuuser/travelgram"
-            />
-            <ProjectCard
               title="Travelgram"
               description="Rede social onde as pessoas mostram os registros de suas viagens pelo mundo"
               mediaType="image"
               mediaSrc="/Thumbnail.png"
               borderColor="#FF6B6B"
-              technologies={["React", "Next.js", "TailwindCSS"]}
-              projectUrl="https://meuprojeto.com"
-              githubUrl="https://github.com/meuuser/travelgram"
-            />
-            <ProjectCard
-              title="Tech News"
-              description="Homepage de um portal de notícias sobre a área de tecnologia"
-              mediaType="video"
-              mediaSrc="/movie-finder.mp4"
-              borderColor="#3498DB"
               technologies={["React", "Next.js", "TailwindCSS"]}
               projectUrl="https://meuprojeto.com"
               githubUrl="https://github.com/meuuser/travelgram"
