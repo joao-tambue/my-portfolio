@@ -38,7 +38,7 @@ export function Hero() {
               style={typography.textSm}
               className="text-gray-500 text-sm sm:text-base leading-relaxed px-2 sm:px-0"
             >
-              Transformo necessidades em aplicações reais, evolventes e funcionais.
+              Tenho 2 anos de experiência, expecialidado em React, Next & React Native Transformo necessidades em aplicações reais, evolventes e funcionais.
               Desenvolvo sistemas através da minha paixão pela tecnologia,
               contribuindo com soluções inovadoras e eficazes para desafios
               complexos.

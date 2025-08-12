@@ -1,18 +1,22 @@
 'use client';
 
 import { typography } from "@/fonts/fonts";
-import { FaNodeJs, FaReact } from "react-icons/fa";
-import { SiNextdotjs, SiTypescript, SiExpress, SiJavascript, } from "react-icons/si";
+import { GithubLogoIcon } from "@phosphor-icons/react";
+import { DiPostgresql } from "react-icons/di";
+import { FaAngular, FaGithub, FaNodeJs, FaReact } from "react-icons/fa";
+import { SiNextdotjs, SiTypescript, SiExpress, SiJavascript, SiNestjs, SiFastify, SiAlpinedotjs, SiElectron, SiExpo, SiPrisma, SiSupabase, SiStyledcomponents, SiDotnet, SiBlazor, } from "react-icons/si";
+import { TbBrandXamarin } from "react-icons/tb";
 
 export function Skills() {
   const skills = [
     { icon: <FaReact className="text-[#61DAFB]" />, name: "React" },
-    { icon: <FaNodeJs className="text-[#8CC84B]" />, name: "Node.js" },
     { icon: <SiNextdotjs className="text-black" />, name: "Next.js" },
-    { icon: <SiTypescript className="text-[#3178C6]" />, name: "TypeScript" },
+    { icon: <FaAngular className="text-red-400" />, name: "Angular.js" },
+    { icon: <FaNodeJs className="text-[#8CC84B]" />, name: "Node.js" },
     { icon: <SiExpress className="text-[#000000]" />, name: "Express.js" },
-    { icon: <SiJavascript className="text-[#F7DF1E]" />, name: "JavaScript" },
+    { icon: <SiTypescript className="text-[#3178C6]" />, name: "TypeScript" },
     { icon: <FaReact className="text-[#61DAFB]" />, name: "React Native" },
+    { icon: <SiExpo className="text-black" />, name: "Expo Go" },
   ];
 
   return (
