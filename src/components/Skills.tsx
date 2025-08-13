@@ -20,7 +20,7 @@ export function Skills() {
   ];
 
   return (
-    <div className="mx-auto mt-4 sm:mt-[80px]">
+    <div className="mx-auto mt-4 sm:mt-[60px]">
       <ul className="flex flex-wrap justify-center gap-3 sm:gap-4">
         {skills.map((skill, index) => (
           <li
