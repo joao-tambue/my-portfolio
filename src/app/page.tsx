@@ -3,6 +3,7 @@ import { Experience } from './components/experience';
 import { Hero } from './components/hero';
 import { typography, asap, inconsolata, mavenPro } from "@/fonts/fonts";
 import { Services } from './components/services';
+import { Contact } from './components/contact';
 
 export default function Home() {
 
@@ -62,6 +63,7 @@ export default function Home() {
         </div>
       </section>
       <Services />
+      <Contact />
     </main>
   );
 }

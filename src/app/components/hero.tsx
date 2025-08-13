@@ -9,12 +9,12 @@ import { Skills } from "@/components/Skills";
 
 export function Hero() {
   return (
-    <section className="bg-[url('/Background_Intro.png')] bg-no-repeat bg-top sm:bg-center sm:bg-cover bg-contain flex flex-col items-center justify-center min-h-screen text-center px-6 sm:px-10 md:px-20 lg:px-[163px] py-16 sm:py-20 md:py-24 lg:py-[120px] pb-20 sm:pb-24 md:pb-28 lg:pb-[183px]">
+    <section className="bg-[url('/Background_Intro.png')] bg-cover bg-no-repeat flex flex-col items-center justify-center min-h-screen text-center px-6 sm:px-10 md:px-20 lg:px-[163px] py-16 sm:py-20 md:py-24 lg:py-[120px] pb-20 sm:pb-24 md:pb-28 lg:pb-[183px]">
       <div className="text-white max-w-[1040px] mx-auto">
         <div className={`${asap.variable} ${inconsolata.variable} ${mavenPro.variable}`}>
           <div className="max-w-[680px] mx-auto flex flex-col items-center">
             <div className="relative rounded-full border-2 border-[#e3646e] mb-3">
-              <Avatar className="w-[80px] h-[80px] sm:w-[100px] sm:h-[100px] relative border-2 border-[#000]">
+              <Avatar className="w-[80px] h-[80px] sm:w-[110px] sm:h-[110px] relative border-2 border-[#000]">
                 <AvatarImage src="https://github.com/joao-tambue.png" />
                 <AvatarFallback className="text-black">JT</AvatarFallback>
               </Avatar>
